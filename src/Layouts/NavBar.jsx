@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -8,15 +8,19 @@ import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
+import Badge from '@mui/material/Badge';
 
+import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 import MenuItem from '@mui/material/MenuItem';
 import { Link } from 'react-router-dom';
+import axios from 'axios';
 
-const pages = ['Home', 'Cart', 'Contact'];
+const pages = ['Home', `Cart`, 'Contact'];
 
 const NavBar = () => {
     const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
+  
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
@@ -55,6 +59,7 @@ const NavBar = () => {
             }}
             className='justify-between gap-6'
           >
+            
             <img className='w-10 h-10 rounded-full' src="https://i.ibb.co/GnGPN0F/31818478-7880527.jpg" alt=""  />
             Mobile Shop
           </Typography>
@@ -70,6 +75,7 @@ const NavBar = () => {
             >
               <MenuIcon />
             </IconButton>
+            
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
@@ -131,9 +137,9 @@ const NavBar = () => {
               </Button>
             ))}
           </Box>
-
-         
+          
         </Toolbar>
+        
       </Container>
     </AppBar>
     );
