@@ -1,0 +1,183 @@
+[
+    {
+      "name": "Samsung Galaxy S21",
+      "type": "Flagship",
+      "processor": "Exynos 2100",
+      "memory": "8GB",
+      "os": "Android 11",
+      "price": 999.99,
+      "image": "https://i.ibb.co/8bRLcsp/1.jpg"
+    },
+    {
+      "name": "Google Pixel 6",
+      "type": "Flagship",
+      "processor": "Google Tensor",
+      "memory": "6GB",
+      "os": "Android 12",
+      "price": 799.99,
+      "image": "https://i.ibb.co/zJB94md/2.jpg"
+    },
+    {
+      "name": "OnePlus 9",
+      "type": "Flagship",
+      "processor": "Snapdragon 888",
+      "memory": "8GB",
+      "os": "Android 11",
+      "price": 899.99,
+      "image": "https://i.ibb.co/M9KYqLN/3.jpg"
+    },
+    {
+      "name": "iPhone 13 Pro",
+      "type": "Flagship",
+      "processor": "Apple A15 Bionic",
+      "memory": "8GB",
+      "os": "iOS 15",
+      "price": 1299.99,
+      "image": "https://i.ibb.co/Jm9N987/4.jpg"
+    },
+    {
+      "name": "Samsung Galaxy A52",
+      "type": "Mid-Range",
+      "processor": "Snapdragon 720G",
+      "memory": "6GB",
+      "os": "Android 11",
+      "price": 499.99,
+      "image": "https://i.ibb.co/k2gfVft/5.jpg"
+    },
+    {
+      "name": "Google Pixel 5a",
+      "type": "Mid-Range",
+      "processor": "Snapdragon 765G",
+      "memory": "6GB",
+      "os": "Android 11",
+      "price": 449.99,
+      "image": "https://i.ibb.co/QYzM0PF/6.jpg"
+    },
+    {
+      "name": "OnePlus Nord 2",
+      "type": "Mid-Range",
+      "processor": "MediaTek Dimensity 1200",
+      "memory": "8GB",
+      "os": "Android 11",
+      "price": 549.99,
+      "image": "https://i.ibb.co/pydrrhZ/7.jpg"
+    },
+    {
+      "name": "iPhone 13",
+      "type": "Flagship",
+      "processor": "Apple A15 Bionic",
+      "memory": "6GB",
+      "os": "iOS 15",
+      "price": 999.99,
+      "image": "https://i.ibb.co/HdMsccs/8.jpg"
+    },
+    {
+      "name": "Samsung Galaxy M32",
+      "type": "Budget",
+      "processor": "MediaTek Helio G80",
+      "memory": "4GB",
+      "os": "Android 11",
+      "price": 199.99,
+      "image": "https://i.ibb.co/HrtSD7S/9.jpg"
+    },
+    {
+      "name": "Realme C25",
+      "type": "Budget",
+      "processor": "Mediatek Helio G70",
+      "memory": "4GB",
+      "os": "Android 10",
+      "price": 149.99,
+      "image": "https://i.ibb.co/yPYPXyR/10.jpg"
+    },
+    {
+      "name": "Motorola Moto G Power (2021)",
+      "type": "Budget",
+      "processor": "Snapdragon 662",
+      "memory": "4GB",
+      "os": "Android 10",
+      "price": 179.99,
+      "image": "https://i.ibb.co/JxbxfDx/11.jpg"
+    },
+    {
+      "name": "Xiaomi Poco X3",
+      "type": "Mid-Range",
+      "processor": "Snapdragon 732G",
+      "memory": "6GB",
+      "os": "Android 10",
+      "price": 249.99,
+      "image": "https://i.ibb.co/SwSYMLJ/12.jpg"
+    },
+    {
+      "name": "iPhone SE (2020)",
+      "type": "Mid-Range",
+      "processor": "Apple A13 Bionic",
+      "memory": "3GB",
+      "os": "iOS 15",
+      "price": 399.99,
+      "image": "https://i.ibb.co/Sxpv2NJ/13.jpg"
+    },
+    {
+      "name": "Samsung Galaxy Z Fold 3",
+      "type": "Foldable",
+      "processor": "Snapdragon 888",
+      "memory": "12GB",
+      "os": "Android 11",
+      "price": 1799.99,
+      "image": "https://i.ibb.co/bsXZ9Xg/14.jpg"
+    },
+    {
+      "name": "Google Pixel 4a",
+      "type": "Mid-Range",
+      "processor": "Snapdragon 730",
+      "memory": "6GB",
+      "os": "Android 10",
+      "price": 349.99,
+      "image": "https://i.ibb.co/0C0LN2q/15.jpg"
+    },
+    {
+      "name": "iPhone 12 Mini",
+      "type": "Flagship",
+      "processor": "Apple A14 Bionic",
+      "memory": "4GB",
+      "os": "iOS 15",
+      "price": 699.99,
+      "image": "https://i.ibb.co/tMyTRYD/16.jpg"
+    },
+    {
+      "name": "OnePlus Nord CE 5G",
+      "type": "Mid-Range",
+      "processor": "Snapdragon 750G",
+      "memory": "8GB",
+      "os": "Android 11",
+      "price": 429.99,
+      "image": "https://i.ibb.co/nP77hYg/17.jpg"
+    },
+    {
+      "name": "Xiaomi Redmi Note 10 Pro",
+      "type": "Mid-Range",
+      "processor": "Snapdragon 732G",
+      "memory": "6GB",
+      "os": "Android 10",
+      "price": 349.99,
+      "image": "https://i.ibb.co/Rzw88nx/18.jpg"
+    },
+    {
+      "name": "iPhone 12",
+      "type": "Flagship",
+      "processor": "Apple A14 Bionic",
+      "memory": "6GB",
+      "os": "iOS 15",
+      "price": 799.99,
+      "image": "https://i.ibb.co/h1LGcBN/19.jpg"
+    },
+    {
+      "name": "Realme Narzo 30 Pro",
+      "type": "Mid-Range",
+      "processor": "MediaTek Dimensity 800U",
+      "memory": "6GB",
+      "os": "Android 10",
+      "price": 299.99,
+      "image": "https://i.ibb.co/3WwrHmC/20.jpg"
+    }
+  ]
+  
