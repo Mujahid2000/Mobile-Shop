@@ -13,7 +13,7 @@ const MyCart = () => {
     console.log(cartData);
 
     const fetchCartData = () => {
-        axios.get('http://localhost:5050/cartData')
+        axios.get('https://mobile-sell-server.vercel.app/cartData')
             .then(res => res.data)
             .then(data => setCartData(data))
             .catch(err => {
@@ -39,7 +39,7 @@ const MyCart = () => {
             confirmButtonText: "Yes, delete it!"
         }).then((result) => {
             if (result.isConfirmed) {
-                axios.delete(`http://localhost:5050/cartData/${cart._id}`)
+                axios.delete(`https://mobile-sell-server.vercel.app/cartData/${cart._id}`)
                     .then(res => {
                         console.log(res.data);
 

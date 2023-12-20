@@ -12,7 +12,7 @@ import Swal from 'sweetalert2';
 const MobileCard = () => {
     const [data, setData] = useState([]);
     const [search, setSearch] = useState('');
-    const apiUrl = 'http://localhost:5050/mobileData';
+    const apiUrl = 'https://mobile-sell-server.vercel.app/mobileData';
 
     useEffect(() => {
         fetch(apiUrl)
@@ -24,7 +24,7 @@ const MobileCard = () => {
 
     const handleAddToCart = (product) => {
         console.log('Product added to the cart:', product);
-        axios.post('http://localhost:5050/cartData', product)
+        axios.post('https://mobile-sell-server.vercel.app/cartData', product)
             .then(res => {
                 console.log(res.data);
                 Swal.fire({
