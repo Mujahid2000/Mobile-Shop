@@ -5,7 +5,7 @@ import { Button, Label, TextInput, Textarea } from 'flowbite-react';
 const Contact = () => {
     return (
         <div className='mt-32 mb-5'>
-            <div className="w-500">
+            <div className="p-4">
             <Map height={500} defaultCenter={[50.879, 4.6997]} defaultZoom={11}>
             <Marker width={90} anchor={[50.879, 4.6997]} />
             </Map>
@@ -15,7 +15,7 @@ const Contact = () => {
             <div>
                 <img className="w-[500px]" src="https://i.ibb.co/nM4HPwH/contact-1.png" alt="" />
             </div>
-            <div className="w-full lg:w-[500px]">
+            <div className="w-full p-4 lg:w-[500px]">
                 <h2 className="text-2xl font-semibold mb-3">Leave us a Message</h2>
           <form className="flex w-full flex-col gap-4 border rounded-lg p-4">
             <div className="mb-4">

@@ -68,7 +68,7 @@ const MobileCard = () => {
                 <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:ml-6 p-2 mx-auto'>
                     {filteredData.map(mobile =>
                         <Card key={mobile._id} sx={{ maxWidth: 500, paddingX: 1, paddingY: 1 }}>
-                            <CardActionArea sx={{ height: 550, paddingX: 1, paddingY: 1 }}>
+                            <CardActionArea sx={{ height: 530, paddingX: 1, paddingY: 1 }}>
                                 <CardMedia
                                     component="img"
                                     height="140"
@@ -94,7 +94,7 @@ const MobileCard = () => {
                                     </Typography>
                                     </div>
                                     <Typography variant="body1" color="text.secondary">
-                                        ${mobile.price}
+                                        Price:${mobile.price}
                                     </Typography>
                                     <Typography variant="body2" color="text.secondary">
                                         Processor: {mobile.processor}
